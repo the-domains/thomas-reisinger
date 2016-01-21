@@ -1,28 +1,40 @@
-name: THOMAS REISINGER
 favicon: null
-layout_spectrum: 0.6362002890091389
-typography_spectrum: 0.31123086833395064
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: THOMAS REISINGER
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7971799417864531
+  brandStrength: 0.06868476304225624
+  rhythmicContrast: 0.6148604524787515
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.06868476304225624
   lightness: 0.07294829981401563
-  saturation: 0.7971799417864531
-  rhythmicContrast: 0.6148604524787515
-purpose: []
+typography_spectrum: 0.3112308683339506
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.9964158
+analytics:
+  twitter: null
+  google: null
+  facebook: null
